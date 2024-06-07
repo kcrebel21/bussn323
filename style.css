@@ -1,64 +1,42 @@
-body {
-  background-color: #242424;
-  padding: 10px;
-  border-radius: 12px;
+html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, sans-serif;
 }
 
-introduction {
-  direction: column;
-  align-items: center;
-
-  gap: 10;
-  margin-bottom: 40px;
-}
-
-header {
-  font-size: 48px;
-  font-weight: ultralight;
-  font-style: italic;
-}
-
-result {
-  margin-top: 20px;
-
-  font-size: 24px;
-}
-
-list {
-  align-items: center;
-
+header{
+  background-color: #808080;
   direction: row;
-  gap: 60;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  align-items: fill;
+  padding: 10px 20px;
+  gap: 15px;
 }
 
-list2 {
+headerp{
+  font-size: 15px;
+}
+
+main{
   align-items: center;
-
   direction: column;
+  wrap: wrap;
 }
 
-item {
-  direction: column;
-  gap:10;
+fun{
+  padding: 10px;
 }
 
-item-title {
-  font-size: 24px;
-  font-weight: bold;
+funp{
+  font-size: 10px;
 }
 
-input {
-  padding: 5px;
-  border-color: #616161;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 12px;
 
-  width: 400px;
+oma{
+  padding: 10px;
 }
 
-spacing {
-  margin-bottom: 10px;
+omap{
+  font-size: 10px;
 }
